@@ -5,7 +5,7 @@ const user = {
 
 function getUserWithFullName(user) {
     return {
-        ...user, //spread
+        ...user, //spread operator
         fullName: `${user.name} ${user.lastName}`
     }
 }
